@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: chat-backend
+  kafka:
+    bootstrap-servers: localhost:9092
+
+server:
+  port: 8080
+
+app:
+  kafka:
+    consumer:
+      group-id: chat-server-1

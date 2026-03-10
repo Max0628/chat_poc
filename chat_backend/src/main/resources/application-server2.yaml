@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+app:
+  kafka:
+    consumer:
+      group-id: chat-server-2
